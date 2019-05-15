@@ -14,6 +14,7 @@
 		C713F4E4228960310065F74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C713F4E3228960310065F74F /* Assets.xcassets */; };
 		C713F4E7228960310065F74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C713F4E5228960310065F74F /* LaunchScreen.storyboard */; };
 		C78A3CB1228BCF2A00D02F63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C78A3CB0228BCF2A00D02F63 /* GoogleService-Info.plist */; };
+		C78A3CBD228C174C00D02F63 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78A3CBC228C174C00D02F63 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +29,7 @@
 		C713F4E6228960310065F74F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C713F4E8228960310065F74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C78A3CB0228BCF2A00D02F63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		C78A3CBC228C174C00D02F63 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +50,6 @@
 				6CF74AD30AAA84D9A0D29F9D /* Pods-Trueu.debug.xcconfig */,
 				4DAF0D318479E85F9A66E280 /* Pods-Trueu.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -93,6 +94,7 @@
 			children = (
 				C713F4DC2289602F0065F74F /* AppDelegate.swift */,
 				C713F4DE2289602F0065F74F /* ViewController.swift */,
+				C78A3CBC228C174C00D02F63 /* HomeViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -245,6 +247,7 @@
 			files = (
 				C713F4DF2289602F0065F74F /* ViewController.swift in Sources */,
 				C713F4DD2289602F0065F74F /* AppDelegate.swift in Sources */,
+				C78A3CBD228C174C00D02F63 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
