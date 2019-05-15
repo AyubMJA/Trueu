@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8C4BD8B85E09945A2010F728 /* Pods_Trueu.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F80627CBD5169FDC594399D /* Pods_Trueu.framework */; };
 		C713F4DD2289602F0065F74F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713F4DC2289602F0065F74F /* AppDelegate.swift */; };
 		C713F4DF2289602F0065F74F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C713F4DE2289602F0065F74F /* ViewController.swift */; };
 		C713F4E22289602F0065F74F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C713F4E02289602F0065F74F /* Main.storyboard */; };
 		C713F4E4228960310065F74F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C713F4E3228960310065F74F /* Assets.xcassets */; };
 		C713F4E7228960310065F74F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C713F4E5228960310065F74F /* LaunchScreen.storyboard */; };
+		C78A3CB1228BCF2A00D02F63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C78A3CB0228BCF2A00D02F63 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DAF0D318479E85F9A66E280 /* Pods-Trueu.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trueu.release.xcconfig"; path = "Target Support Files/Pods-Trueu/Pods-Trueu.release.xcconfig"; sourceTree = "<group>"; };
+		4F80627CBD5169FDC594399D /* Pods_Trueu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Trueu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF74AD30AAA84D9A0D29F9D /* Pods-Trueu.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Trueu.debug.xcconfig"; path = "Target Support Files/Pods-Trueu/Pods-Trueu.debug.xcconfig"; sourceTree = "<group>"; };
 		C713F4D92289602F0065F74F /* Trueu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Trueu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C713F4DC2289602F0065F74F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C713F4DE2289602F0065F74F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +27,7 @@
 		C713F4E3228960310065F74F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C713F4E6228960310065F74F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C713F4E8228960310065F74F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C78A3CB0228BCF2A00D02F63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C4BD8B85E09945A2010F728 /* Pods_Trueu.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4129E9FDE3E76E105C3A1481 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CF74AD30AAA84D9A0D29F9D /* Pods-Trueu.debug.xcconfig */,
+				4DAF0D318479E85F9A66E280 /* Pods-Trueu.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BB3965E0AFB6889CC4F3AEEC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4F80627CBD5169FDC594399D /* Pods_Trueu.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C713F4D02289602E0065F74F = {
 			isa = PBXGroup;
 			children = (
 				C713F4DB2289602F0065F74F /* Trueu */,
 				C713F4DA2289602F0065F74F /* Products */,
+				4129E9FDE3E76E105C3A1481 /* Pods */,
+				BB3965E0AFB6889CC4F3AEEC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +81,39 @@
 		C713F4DB2289602F0065F74F /* Trueu */ = {
 			isa = PBXGroup;
 			children = (
-				C713F4DC2289602F0065F74F /* AppDelegate.swift */,
-				C713F4DE2289602F0065F74F /* ViewController.swift */,
-				C713F4E02289602F0065F74F /* Main.storyboard */,
-				C713F4E3228960310065F74F /* Assets.xcassets */,
-				C713F4E5228960310065F74F /* LaunchScreen.storyboard */,
-				C713F4E8228960310065F74F /* Info.plist */,
+				C78A3CAD228BCD7800D02F63 /* Controller */,
+				C78A3CAE228BCD8500D02F63 /* View */,
+				C78A3CAF228BCD8D00D02F63 /* Supporting Files */,
 			);
 			path = Trueu;
+			sourceTree = "<group>";
+		};
+		C78A3CAD228BCD7800D02F63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C713F4DC2289602F0065F74F /* AppDelegate.swift */,
+				C713F4DE2289602F0065F74F /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C78A3CAE228BCD8500D02F63 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C713F4E02289602F0065F74F /* Main.storyboard */,
+				C713F4E5228960310065F74F /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C78A3CAF228BCD8D00D02F63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C713F4E3228960310065F74F /* Assets.xcassets */,
+				C713F4E8228960310065F74F /* Info.plist */,
+				C78A3CB0228BCF2A00D02F63 /* GoogleService-Info.plist */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +123,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C713F4EB228960310065F74F /* Build configuration list for PBXNativeTarget "Trueu" */;
 			buildPhases = (
+				DDE42CA7AA44EA06CEBF40C0 /* [CP] Check Pods Manifest.lock */,
 				C713F4D52289602F0065F74F /* Sources */,
 				C713F4D62289602F0065F74F /* Frameworks */,
 				C713F4D72289602F0065F74F /* Resources */,
+				D2DCA170D1812FA11DB7B4C1 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,12 +177,66 @@
 			buildActionMask = 2147483647;
 			files = (
 				C713F4E7228960310065F74F /* LaunchScreen.storyboard in Resources */,
+				C78A3CB1228BCF2A00D02F63 /* GoogleService-Info.plist in Resources */,
 				C713F4E4228960310065F74F /* Assets.xcassets in Resources */,
 				C713F4E22289602F0065F74F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D2DCA170D1812FA11DB7B4C1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Trueu/Pods-Trueu-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Trueu/Pods-Trueu-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DDE42CA7AA44EA06CEBF40C0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Trueu-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C713F4D52289602F0065F74F /* Sources */ = {
@@ -280,37 +388,39 @@
 		};
 		C713F4EC228960310065F74F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF74AD30AAA84D9A0D29F9D /* Pods-Trueu.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5794AC84CR;
-				INFOPLIST_FILE = Trueu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Trueu/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AyubAli.Trueu;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyubAli.true-u";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		C713F4ED228960310065F74F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DAF0D318479E85F9A66E280 /* Pods-Trueu.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5794AC84CR;
-				INFOPLIST_FILE = Trueu/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/Trueu/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.AyubAli.Trueu;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.AyubAli.true-u";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
